@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1B28C3975213C698F76BFA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E71EE9F95ADA1F1D68F663 /* libPods.a */; };
+		EA695A651CB7B5E100DDCDFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA695A641CB7B5E100DDCDFA /* main.m */; };
+		EA695A681CB7B5E100DDCDFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA695A671CB7B5E100DDCDFA /* AppDelegate.m */; };
+		EA695A6B1CB7B5E100DDCDFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA695A6A1CB7B5E100DDCDFA /* ViewController.m */; };
+		EA695A6E1CB7B5E100DDCDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA695A6C1CB7B5E100DDCDFA /* Main.storyboard */; };
+		EA695A701CB7B5E100DDCDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA695A6F1CB7B5E100DDCDFA /* Assets.xcassets */; };
+		EA695A731CB7B5E100DDCDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA695A711CB7B5E100DDCDFA /* LaunchScreen.storyboard */; };
+		EA695AA41CB7C16900DDCDFA /* libHyphenateFullSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AA21CB7C16900DDCDFA /* libHyphenateFullSDK.a */; };
+		EA695AA91CB7C22F00DDCDFA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AA81CB7C22F00DDCDFA /* CoreMedia.framework */; };
+		EA695AAB1CB7C23800DDCDFA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AAA1CB7C23800DDCDFA /* AudioToolbox.framework */; };
+		EA695AAD1CB7C23F00DDCDFA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AAC1CB7C23F00DDCDFA /* AVFoundation.framework */; };
+		EA695AAF1CB7C24700DDCDFA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AAE1CB7C24700DDCDFA /* MobileCoreServices.framework */; };
+		EA695AB11CB7C25300DDCDFA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AB01CB7C25300DDCDFA /* SystemConfiguration.framework */; };
+		EA695AB31CB7C26400DDCDFA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AB21CB7C26400DDCDFA /* libc++.tbd */; };
+		EA695AB51CB7C26D00DDCDFA /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AB41CB7C26D00DDCDFA /* libresolv.tbd */; };
+		EA695AB71CB7C27600DDCDFA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AB61CB7C27600DDCDFA /* libz.tbd */; };
+		EA695AB91CB7C28500DDCDFA /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AB81CB7C28500DDCDFA /* libstdc++.6.0.9.tbd */; };
+		EA695ABB1CB7C29200DDCDFA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695ABA1CB7C29200DDCDFA /* libsqlite3.tbd */; };
+		EA695ABD1CB7C54000DDCDFA /* libHyphenateSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695ABC1CB7C54000DDCDFA /* libHyphenateSDK.a */; };
+		EAF8D4E41CB7CAF1002F8B34 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8D4E21CB7CACB002F8B34 /* libiconv.tbd */; };
+		EAF8D4E51CB7CB17002F8B34 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8D4E01CB7CA94002F8B34 /* ImageIO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E6D29350D9933764FEDB5D8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		91E71EE9F95ADA1F1D68F663 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B087500A67BE2C711F560218 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EA695A601CB7B5E100DDCDFA /* ichat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ichat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA695A641CB7B5E100DDCDFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA695A661CB7B5E100DDCDFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA695A671CB7B5E100DDCDFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA695A691CB7B5E100DDCDFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA695A6A1CB7B5E100DDCDFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA695A6D1CB7B5E100DDCDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA695A6F1CB7B5E100DDCDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA695A721CB7B5E100DDCDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA695A741CB7B5E100DDCDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA695A7C1CB7C16900DDCDFA /* EMCallLocalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallLocalView.h; sourceTree = "<group>"; };
+		EA695A7D1CB7C16900DDCDFA /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallManagerDelegate.h; sourceTree = "<group>"; };
+		EA695A7E1CB7C16900DDCDFA /* EMCallRemoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallRemoteView.h; sourceTree = "<group>"; };
+		EA695A7F1CB7C16900DDCDFA /* EMCallSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCallSession.h; sourceTree = "<group>"; };
+		EA695A801CB7C16900DDCDFA /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatManagerDelegate.h; sourceTree = "<group>"; };
+		EA695A811CB7C16900DDCDFA /* EMChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatroom.h; sourceTree = "<group>"; };
+		EA695A821CB7C16900DDCDFA /* EMChatroomManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMChatroomManagerDelegate.h; sourceTree = "<group>"; };
+		EA695A831CB7C16900DDCDFA /* EMClient+Call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMClient+Call.h"; sourceTree = "<group>"; };
+		EA695A841CB7C16900DDCDFA /* EMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMClient.h; sourceTree = "<group>"; };
+		EA695A851CB7C16900DDCDFA /* EMClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMClientDelegate.h; sourceTree = "<group>"; };
+		EA695A861CB7C16900DDCDFA /* EMCmdMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCmdMessageBody.h; sourceTree = "<group>"; };
+		EA695A871CB7C16900DDCDFA /* EMContactManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMContactManagerDelegate.h; sourceTree = "<group>"; };
+		EA695A881CB7C16900DDCDFA /* EMConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMConversation.h; sourceTree = "<group>"; };
+		EA695A891CB7C16900DDCDFA /* EMCursorResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCursorResult.h; sourceTree = "<group>"; };
+		EA695A8A1CB7C16900DDCDFA /* EMError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMError.h; sourceTree = "<group>"; };
+		EA695A8B1CB7C16900DDCDFA /* EMErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMErrorCode.h; sourceTree = "<group>"; };
+		EA695A8C1CB7C16900DDCDFA /* EMFileMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFileMessageBody.h; sourceTree = "<group>"; };
+		EA695A8D1CB7C16900DDCDFA /* EMGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroup.h; sourceTree = "<group>"; };
+		EA695A8E1CB7C16900DDCDFA /* EMGroupManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroupManagerDelegate.h; sourceTree = "<group>"; };
+		EA695A8F1CB7C16900DDCDFA /* EMGroupOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMGroupOptions.h; sourceTree = "<group>"; };
+		EA695A901CB7C16900DDCDFA /* EMImageMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImageMessageBody.h; sourceTree = "<group>"; };
+		EA695A911CB7C16900DDCDFA /* EMLocationMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLocationMessageBody.h; sourceTree = "<group>"; };
+		EA695A921CB7C16900DDCDFA /* EMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMessage.h; sourceTree = "<group>"; };
+		EA695A931CB7C16900DDCDFA /* EMMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMMessageBody.h; sourceTree = "<group>"; };
+		EA695A941CB7C16900DDCDFA /* EMOptions+PrivateDeploy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMOptions+PrivateDeploy.h"; sourceTree = "<group>"; };
+		EA695A951CB7C16900DDCDFA /* EMOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMOptions.h; sourceTree = "<group>"; };
+		EA695A961CB7C16900DDCDFA /* EMPushOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPushOptions.h; sourceTree = "<group>"; };
+		EA695A971CB7C16900DDCDFA /* EMSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDK.h; sourceTree = "<group>"; };
+		EA695A981CB7C16900DDCDFA /* EMSDKFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSDKFull.h; sourceTree = "<group>"; };
+		EA695A991CB7C16900DDCDFA /* EMTextMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTextMessageBody.h; sourceTree = "<group>"; };
+		EA695A9A1CB7C16900DDCDFA /* EMVideoMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVideoMessageBody.h; sourceTree = "<group>"; };
+		EA695A9B1CB7C16900DDCDFA /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMVoiceMessageBody.h; sourceTree = "<group>"; };
+		EA695A9C1CB7C16900DDCDFA /* IEMCallManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMCallManager.h; sourceTree = "<group>"; };
+		EA695A9D1CB7C16900DDCDFA /* IEMChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatManager.h; sourceTree = "<group>"; };
+		EA695A9E1CB7C16900DDCDFA /* IEMChatroomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMChatroomManager.h; sourceTree = "<group>"; };
+		EA695A9F1CB7C16900DDCDFA /* IEMContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMContactManager.h; sourceTree = "<group>"; };
+		EA695AA01CB7C16900DDCDFA /* IEMGroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEMGroupManager.h; sourceTree = "<group>"; };
+		EA695AA21CB7C16900DDCDFA /* libHyphenateFullSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateFullSDK.a; sourceTree = "<group>"; };
+		EA695AA81CB7C22F00DDCDFA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EA695AAA1CB7C23800DDCDFA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EA695AAC1CB7C23F00DDCDFA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EA695AAE1CB7C24700DDCDFA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EA695AB01CB7C25300DDCDFA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EA695AB21CB7C26400DDCDFA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EA695AB41CB7C26D00DDCDFA /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		EA695AB61CB7C27600DDCDFA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EA695AB81CB7C28500DDCDFA /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		EA695ABA1CB7C29200DDCDFA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EA695ABC1CB7C54000DDCDFA /* libHyphenateSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateSDK.a; sourceTree = "<group>"; };
+		EAF8D4E01CB7CA94002F8B34 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EAF8D4E21CB7CACB002F8B34 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		EAF8D4E71CB7D00A002F8B34 /* Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA695A5D1CB7B5E100DDCDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF8D4E51CB7CB17002F8B34 /* ImageIO.framework in Frameworks */,
+				EAF8D4E41CB7CAF1002F8B34 /* libiconv.tbd in Frameworks */,
+				EA695ABB1CB7C29200DDCDFA /* libsqlite3.tbd in Frameworks */,
+				EA695AB91CB7C28500DDCDFA /* libstdc++.6.0.9.tbd in Frameworks */,
+				EA695AB71CB7C27600DDCDFA /* libz.tbd in Frameworks */,
+				EA695AB51CB7C26D00DDCDFA /* libresolv.tbd in Frameworks */,
+				EA695AB31CB7C26400DDCDFA /* libc++.tbd in Frameworks */,
+				EA695AB11CB7C25300DDCDFA /* SystemConfiguration.framework in Frameworks */,
+				EA695AAF1CB7C24700DDCDFA /* MobileCoreServices.framework in Frameworks */,
+				EA695AAD1CB7C23F00DDCDFA /* AVFoundation.framework in Frameworks */,
+				EA695AAB1CB7C23800DDCDFA /* AudioToolbox.framework in Frameworks */,
+				EA695AA91CB7C22F00DDCDFA /* CoreMedia.framework in Frameworks */,
+				EA695AA41CB7C16900DDCDFA /* libHyphenateFullSDK.a in Frameworks */,
+				EA695ABD1CB7C54000DDCDFA /* libHyphenateSDK.a in Frameworks */,
+				8F1B28C3975213C698F76BFA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51127D34DF444C022C75825B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91E71EE9F95ADA1F1D68F663 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E5A38B74A666164FDFD25F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E6D29350D9933764FEDB5D8 /* Pods.debug.xcconfig */,
+				B087500A67BE2C711F560218 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA695A571CB7B5E100DDCDFA = {
+			isa = PBXGroup;
+			children = (
+				EA695A621CB7B5E100DDCDFA /* ichat */,
+				EA695A611CB7B5E100DDCDFA /* Products */,
+				9E5A38B74A666164FDFD25F2 /* Pods */,
+				51127D34DF444C022C75825B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA695A611CB7B5E100DDCDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA695A601CB7B5E100DDCDFA /* ichat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA695A621CB7B5E100DDCDFA /* ichat */ = {
+			isa = PBXGroup;
+			children = (
+				EAF8D4E61CB7CFDD002F8B34 /* AppDelegate */,
+				EA695AA71CB7C1F100DDCDFA /* Framework */,
+				EA695AA61CB7C17900DDCDFA /* SDK */,
+				EA695A691CB7B5E100DDCDFA /* ViewController.h */,
+				EA695A6A1CB7B5E100DDCDFA /* ViewController.m */,
+				EA695A631CB7B5E100DDCDFA /* Supporting Files */,
+			);
+			path = ichat;
+			sourceTree = "<group>";
+		};
+		EA695A631CB7B5E100DDCDFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA695A6F1CB7B5E100DDCDFA /* Assets.xcassets */,
+				EA695A6C1CB7B5E100DDCDFA /* Main.storyboard */,
+				EA695A741CB7B5E100DDCDFA /* Info.plist */,
+				EA695A711CB7B5E100DDCDFA /* LaunchScreen.storyboard */,
+				EA695A641CB7B5E100DDCDFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA695A7A1CB7C16900DDCDFA /* HyphenateSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EA695A7B1CB7C16900DDCDFA /* include */,
+				EA695AA11CB7C16900DDCDFA /* lib */,
+			);
+			path = HyphenateSDK;
+			sourceTree = "<group>";
+		};
+		EA695A7B1CB7C16900DDCDFA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EA695A7C1CB7C16900DDCDFA /* EMCallLocalView.h */,
+				EA695A7D1CB7C16900DDCDFA /* EMCallManagerDelegate.h */,
+				EA695A7E1CB7C16900DDCDFA /* EMCallRemoteView.h */,
+				EA695A7F1CB7C16900DDCDFA /* EMCallSession.h */,
+				EA695A801CB7C16900DDCDFA /* EMChatManagerDelegate.h */,
+				EA695A811CB7C16900DDCDFA /* EMChatroom.h */,
+				EA695A821CB7C16900DDCDFA /* EMChatroomManagerDelegate.h */,
+				EA695A831CB7C16900DDCDFA /* EMClient+Call.h */,
+				EA695A841CB7C16900DDCDFA /* EMClient.h */,
+				EA695A851CB7C16900DDCDFA /* EMClientDelegate.h */,
+				EA695A861CB7C16900DDCDFA /* EMCmdMessageBody.h */,
+				EA695A871CB7C16900DDCDFA /* EMContactManagerDelegate.h */,
+				EA695A881CB7C16900DDCDFA /* EMConversation.h */,
+				EA695A891CB7C16900DDCDFA /* EMCursorResult.h */,
+				EA695A8A1CB7C16900DDCDFA /* EMError.h */,
+				EA695A8B1CB7C16900DDCDFA /* EMErrorCode.h */,
+				EA695A8C1CB7C16900DDCDFA /* EMFileMessageBody.h */,
+				EA695A8D1CB7C16900DDCDFA /* EMGroup.h */,
+				EA695A8E1CB7C16900DDCDFA /* EMGroupManagerDelegate.h */,
+				EA695A8F1CB7C16900DDCDFA /* EMGroupOptions.h */,
+				EA695A901CB7C16900DDCDFA /* EMImageMessageBody.h */,
+				EA695A911CB7C16900DDCDFA /* EMLocationMessageBody.h */,
+				EA695A921CB7C16900DDCDFA /* EMMessage.h */,
+				EA695A931CB7C16900DDCDFA /* EMMessageBody.h */,
+				EA695A941CB7C16900DDCDFA /* EMOptions+PrivateDeploy.h */,
+				EA695A951CB7C16900DDCDFA /* EMOptions.h */,
+				EA695A961CB7C16900DDCDFA /* EMPushOptions.h */,
+				EA695A971CB7C16900DDCDFA /* EMSDK.h */,
+				EA695A981CB7C16900DDCDFA /* EMSDKFull.h */,
+				EA695A991CB7C16900DDCDFA /* EMTextMessageBody.h */,
+				EA695A9A1CB7C16900DDCDFA /* EMVideoMessageBody.h */,
+				EA695A9B1CB7C16900DDCDFA /* EMVoiceMessageBody.h */,
+				EA695A9C1CB7C16900DDCDFA /* IEMCallManager.h */,
+				EA695A9D1CB7C16900DDCDFA /* IEMChatManager.h */,
+				EA695A9E1CB7C16900DDCDFA /* IEMChatroomManager.h */,
+				EA695A9F1CB7C16900DDCDFA /* IEMContactManager.h */,
+				EA695AA01CB7C16900DDCDFA /* IEMGroupManager.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EA695AA11CB7C16900DDCDFA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EA695AA21CB7C16900DDCDFA /* libHyphenateFullSDK.a */,
+				EA695ABC1CB7C54000DDCDFA /* libHyphenateSDK.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EA695AA61CB7C17900DDCDFA /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				EA695A7A1CB7C16900DDCDFA /* HyphenateSDK */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		EA695AA71CB7C1F100DDCDFA /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EA695AB81CB7C28500DDCDFA /* libstdc++.6.0.9.tbd */,
+				EA695AB61CB7C27600DDCDFA /* libz.tbd */,
+				EA695AB41CB7C26D00DDCDFA /* libresolv.tbd */,
+				EA695AB21CB7C26400DDCDFA /* libc++.tbd */,
+				EAF8D4E21CB7CACB002F8B34 /* libiconv.tbd */,
+				EAF8D4E01CB7CA94002F8B34 /* ImageIO.framework */,
+				EA695AB01CB7C25300DDCDFA /* SystemConfiguration.framework */,
+				EA695AAE1CB7C24700DDCDFA /* MobileCoreServices.framework */,
+				EA695AAC1CB7C23F00DDCDFA /* AVFoundation.framework */,
+				EA695AAA1CB7C23800DDCDFA /* AudioToolbox.framework */,
+				EA695AA81CB7C22F00DDCDFA /* CoreMedia.framework */,
+				EA695ABA1CB7C29200DDCDFA /* libsqlite3.tbd */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		EAF8D4E61CB7CFDD002F8B34 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EA695A661CB7B5E100DDCDFA /* AppDelegate.h */,
+				EA695A671CB7B5E100DDCDFA /* AppDelegate.m */,
+				EAF8D4E71CB7D00A002F8B34 /* Header.pch */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA695A5F1CB7B5E100DDCDFA /* ichat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA695A771CB7B5E100DDCDFA /* Build configuration list for PBXNativeTarget "ichat" */;
+			buildPhases = (
+				58688973226CAE00499C4D0C /* Check Pods Manifest.lock */,
+				EA695A5C1CB7B5E100DDCDFA /* Sources */,
+				EA695A5D1CB7B5E100DDCDFA /* Frameworks */,
+				EA695A5E1CB7B5E100DDCDFA /* Resources */,
+				A6CD3C46C41527F3286F758B /* Embed Pods Frameworks */,
+				B27B83F3312B60769E31E63B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ichat;
+			productName = ichat;
+			productReference = EA695A601CB7B5E100DDCDFA /* ichat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA695A581CB7B5E100DDCDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王恒辉";
+				TargetAttributes = {
+					EA695A5F1CB7B5E100DDCDFA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EA695A5B1CB7B5E100DDCDFA /* Build configuration list for PBXProject "ichat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA695A571CB7B5E100DDCDFA;
+			productRefGroup = EA695A611CB7B5E100DDCDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA695A5F1CB7B5E100DDCDFA /* ichat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA695A5E1CB7B5E100DDCDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA695A731CB7B5E100DDCDFA /* LaunchScreen.storyboard in Resources */,
+				EA695A701CB7B5E100DDCDFA /* Assets.xcassets in Resources */,
+				EA695A6E1CB7B5E100DDCDFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58688973226CAE00499C4D0C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6CD3C46C41527F3286F758B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B27B83F3312B60769E31E63B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA695A5C1CB7B5E100DDCDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA695A6B1CB7B5E100DDCDFA /* ViewController.m in Sources */,
+				EA695A681CB7B5E100DDCDFA /* AppDelegate.m in Sources */,
+				EA695A651CB7B5E100DDCDFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA695A6C1CB7B5E100DDCDFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA695A6D1CB7B5E100DDCDFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA695A711CB7B5E100DDCDFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA695A721CB7B5E100DDCDFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA695A751CB7B5E100DDCDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA695A761CB7B5E100DDCDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA695A781CB7B5E100DDCDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6D29350D9933764FEDB5D8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ichat/Header.pch";
+				INFOPLIST_FILE = ichat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ichat/HyphenateSDK/lib",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.ichat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/ichat/Header.pch";
+			};
+			name = Debug;
+		};
+		EA695A791CB7B5E100DDCDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B087500A67BE2C711F560218 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ichat/Header.pch";
+				INFOPLIST_FILE = ichat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ichat/HyphenateSDK/lib",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.ichat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/ichat/Header.pch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA695A5B1CB7B5E100DDCDFA /* Build configuration list for PBXProject "ichat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA695A751CB7B5E100DDCDFA /* Debug */,
+				EA695A761CB7B5E100DDCDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA695A771CB7B5E100DDCDFA /* Build configuration list for PBXNativeTarget "ichat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA695A781CB7B5E100DDCDFA /* Debug */,
+				EA695A791CB7B5E100DDCDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA695A581CB7B5E100DDCDFA /* Project object */;
+}
