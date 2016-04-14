@@ -8,6 +8,13 @@
 
 #ifndef Header_pch
 #define Header_pch
-#import <Masonry.h>
+#import "Masonry.h"
+
+//屏幕尺寸
+#define SCREEN_SIZE [UIScreen mainScreen].bounds.size
+
+//适配比例(横向)
+#define SW(value) value*(SCREEN_SIZE.width / 320)
+
 
 #endif /* Header_pch */

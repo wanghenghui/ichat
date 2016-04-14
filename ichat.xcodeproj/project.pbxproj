@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F1B28C3975213C698F76BFA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E71EE9F95ADA1F1D68F663 /* libPods.a */; };
+		EA65B2FC1CBFFFF9001435DA /* WHHChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA65B2FB1CBFFFF9001435DA /* WHHChatViewController.m */; };
+		EA65B3031CC00118001435DA /* WHHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA65B3021CC00118001435DA /* WHHLoginViewController.m */; };
 		EA695A651CB7B5E100DDCDFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA695A641CB7B5E100DDCDFA /* main.m */; };
 		EA695A681CB7B5E100DDCDFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA695A671CB7B5E100DDCDFA /* AppDelegate.m */; };
-		EA695A6B1CB7B5E100DDCDFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA695A6A1CB7B5E100DDCDFA /* ViewController.m */; };
 		EA695A6E1CB7B5E100DDCDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA695A6C1CB7B5E100DDCDFA /* Main.storyboard */; };
 		EA695A701CB7B5E100DDCDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA695A6F1CB7B5E100DDCDFA /* Assets.xcassets */; };
 		EA695A731CB7B5E100DDCDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA695A711CB7B5E100DDCDFA /* LaunchScreen.storyboard */; };
@@ -26,20 +26,29 @@
 		EA695AB91CB7C28500DDCDFA /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695AB81CB7C28500DDCDFA /* libstdc++.6.0.9.tbd */; };
 		EA695ABB1CB7C29200DDCDFA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695ABA1CB7C29200DDCDFA /* libsqlite3.tbd */; };
 		EA695ABD1CB7C54000DDCDFA /* libHyphenateSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA695ABC1CB7C54000DDCDFA /* libHyphenateSDK.a */; };
+		EAC0D0DF1CC023C400BBC4B5 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0C71CC023C400BBC4B5 /* MASCompositeConstraint.m */; };
+		EAC0D0E01CC023C400BBC4B5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0CA1CC023C400BBC4B5 /* MASConstraint.m */; };
+		EAC0D0E11CC023C400BBC4B5 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0CC1CC023C400BBC4B5 /* MASConstraintMaker.m */; };
+		EAC0D0E21CC023C400BBC4B5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0CE1CC023C400BBC4B5 /* MASLayoutConstraint.m */; };
+		EAC0D0E31CC023C400BBC4B5 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0D21CC023C400BBC4B5 /* MASViewAttribute.m */; };
+		EAC0D0E41CC023C400BBC4B5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0D41CC023C400BBC4B5 /* MASViewConstraint.m */; };
+		EAC0D0E51CC023C400BBC4B5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0D61CC023C400BBC4B5 /* NSArray+MASAdditions.m */; };
+		EAC0D0E61CC023C400BBC4B5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0D91CC023C400BBC4B5 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		EAC0D0E71CC023C400BBC4B5 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0DB1CC023C400BBC4B5 /* View+MASAdditions.m */; };
+		EAC0D0E81CC023C400BBC4B5 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC0D0DE1CC023C400BBC4B5 /* ViewController+MASAdditions.m */; };
 		EAF8D4E41CB7CAF1002F8B34 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8D4E21CB7CACB002F8B34 /* libiconv.tbd */; };
 		EAF8D4E51CB7CB17002F8B34 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF8D4E01CB7CA94002F8B34 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E6D29350D9933764FEDB5D8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		91E71EE9F95ADA1F1D68F663 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B087500A67BE2C711F560218 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EA65B2FA1CBFFFF9001435DA /* WHHChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHHChatViewController.h; sourceTree = "<group>"; };
+		EA65B2FB1CBFFFF9001435DA /* WHHChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHChatViewController.m; sourceTree = "<group>"; };
+		EA65B3011CC00118001435DA /* WHHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHHLoginViewController.h; sourceTree = "<group>"; };
+		EA65B3021CC00118001435DA /* WHHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHLoginViewController.m; sourceTree = "<group>"; };
 		EA695A601CB7B5E100DDCDFA /* ichat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ichat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA695A641CB7B5E100DDCDFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA695A661CB7B5E100DDCDFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA695A671CB7B5E100DDCDFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA695A691CB7B5E100DDCDFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA695A6A1CB7B5E100DDCDFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA695A6D1CB7B5E100DDCDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA695A6F1CB7B5E100DDCDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA695A721CB7B5E100DDCDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,6 +102,31 @@
 		EA695AB81CB7C28500DDCDFA /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		EA695ABA1CB7C29200DDCDFA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		EA695ABC1CB7C54000DDCDFA /* libHyphenateSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHyphenateSDK.a; sourceTree = "<group>"; };
+		EAC0D0C61CC023C400BBC4B5 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		EAC0D0C71CC023C400BBC4B5 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		EAC0D0C81CC023C400BBC4B5 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		EAC0D0C91CC023C400BBC4B5 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		EAC0D0CA1CC023C400BBC4B5 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		EAC0D0CB1CC023C400BBC4B5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		EAC0D0CC1CC023C400BBC4B5 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		EAC0D0CD1CC023C400BBC4B5 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		EAC0D0CE1CC023C400BBC4B5 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		EAC0D0CF1CC023C400BBC4B5 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		EAC0D0D01CC023C400BBC4B5 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		EAC0D0D11CC023C400BBC4B5 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		EAC0D0D21CC023C400BBC4B5 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		EAC0D0D31CC023C400BBC4B5 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		EAC0D0D41CC023C400BBC4B5 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		EAC0D0D51CC023C400BBC4B5 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		EAC0D0D61CC023C400BBC4B5 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		EAC0D0D71CC023C400BBC4B5 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EAC0D0D81CC023C400BBC4B5 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		EAC0D0D91CC023C400BBC4B5 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		EAC0D0DA1CC023C400BBC4B5 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		EAC0D0DB1CC023C400BBC4B5 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		EAC0D0DC1CC023C400BBC4B5 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		EAC0D0DD1CC023C400BBC4B5 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		EAC0D0DE1CC023C400BBC4B5 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		EAF8D4E01CB7CA94002F8B34 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		EAF8D4E21CB7CACB002F8B34 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		EAF8D4E71CB7D00A002F8B34 /* Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
@@ -117,7 +151,6 @@
 				EA695AA91CB7C22F00DDCDFA /* CoreMedia.framework in Frameworks */,
 				EA695AA41CB7C16900DDCDFA /* libHyphenateFullSDK.a in Frameworks */,
 				EA695ABD1CB7C54000DDCDFA /* libHyphenateSDK.a in Frameworks */,
-				8F1B28C3975213C698F76BFA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,18 +160,35 @@
 		51127D34DF444C022C75825B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91E71EE9F95ADA1F1D68F663 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9E5A38B74A666164FDFD25F2 /* Pods */ = {
+		EA65B2FE1CC0003A001435DA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8E6D29350D9933764FEDB5D8 /* Pods.debug.xcconfig */,
-				B087500A67BE2C711F560218 /* Pods.release.xcconfig */,
+				EA65B3001CC000AA001435DA /* 注册登录 */,
+				EA65B2FF1CC00059001435DA /* Chat */,
 			);
-			name = Pods;
+			name = "ViewController\U0010\U0010";
+			sourceTree = "<group>";
+		};
+		EA65B2FF1CC00059001435DA /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				EA65B2FA1CBFFFF9001435DA /* WHHChatViewController.h */,
+				EA65B2FB1CBFFFF9001435DA /* WHHChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		EA65B3001CC000AA001435DA /* 注册登录 */ = {
+			isa = PBXGroup;
+			children = (
+				EA65B3011CC00118001435DA /* WHHLoginViewController.h */,
+				EA65B3021CC00118001435DA /* WHHLoginViewController.m */,
+			);
+			name = "注册登录";
 			sourceTree = "<group>";
 		};
 		EA695A571CB7B5E100DDCDFA = {
@@ -146,7 +196,6 @@
 			children = (
 				EA695A621CB7B5E100DDCDFA /* ichat */,
 				EA695A611CB7B5E100DDCDFA /* Products */,
-				9E5A38B74A666164FDFD25F2 /* Pods */,
 				51127D34DF444C022C75825B /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -162,11 +211,10 @@
 		EA695A621CB7B5E100DDCDFA /* ichat */ = {
 			isa = PBXGroup;
 			children = (
+				EA65B2FE1CC0003A001435DA /* ViewController */,
 				EAF8D4E61CB7CFDD002F8B34 /* AppDelegate */,
 				EA695AA71CB7C1F100DDCDFA /* Framework */,
 				EA695AA61CB7C17900DDCDFA /* SDK */,
-				EA695A691CB7B5E100DDCDFA /* ViewController.h */,
-				EA695A6A1CB7B5E100DDCDFA /* ViewController.m */,
 				EA695A631CB7B5E100DDCDFA /* Supporting Files */,
 			);
 			path = ichat;
@@ -249,6 +297,7 @@
 		EA695AA61CB7C17900DDCDFA /* SDK */ = {
 			isa = PBXGroup;
 			children = (
+				EAC0D0C51CC023C400BBC4B5 /* Masonry */,
 				EA695A7A1CB7C16900DDCDFA /* HyphenateSDK */,
 			);
 			name = SDK;
@@ -273,6 +322,38 @@
 			name = Framework;
 			sourceTree = "<group>";
 		};
+		EAC0D0C51CC023C400BBC4B5 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				EAC0D0C61CC023C400BBC4B5 /* MASCompositeConstraint.h */,
+				EAC0D0C71CC023C400BBC4B5 /* MASCompositeConstraint.m */,
+				EAC0D0C81CC023C400BBC4B5 /* MASConstraint+Private.h */,
+				EAC0D0C91CC023C400BBC4B5 /* MASConstraint.h */,
+				EAC0D0CA1CC023C400BBC4B5 /* MASConstraint.m */,
+				EAC0D0CB1CC023C400BBC4B5 /* MASConstraintMaker.h */,
+				EAC0D0CC1CC023C400BBC4B5 /* MASConstraintMaker.m */,
+				EAC0D0CD1CC023C400BBC4B5 /* MASLayoutConstraint.h */,
+				EAC0D0CE1CC023C400BBC4B5 /* MASLayoutConstraint.m */,
+				EAC0D0CF1CC023C400BBC4B5 /* Masonry.h */,
+				EAC0D0D01CC023C400BBC4B5 /* MASUtilities.h */,
+				EAC0D0D11CC023C400BBC4B5 /* MASViewAttribute.h */,
+				EAC0D0D21CC023C400BBC4B5 /* MASViewAttribute.m */,
+				EAC0D0D31CC023C400BBC4B5 /* MASViewConstraint.h */,
+				EAC0D0D41CC023C400BBC4B5 /* MASViewConstraint.m */,
+				EAC0D0D51CC023C400BBC4B5 /* NSArray+MASAdditions.h */,
+				EAC0D0D61CC023C400BBC4B5 /* NSArray+MASAdditions.m */,
+				EAC0D0D71CC023C400BBC4B5 /* NSArray+MASShorthandAdditions.h */,
+				EAC0D0D81CC023C400BBC4B5 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				EAC0D0D91CC023C400BBC4B5 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				EAC0D0DA1CC023C400BBC4B5 /* View+MASAdditions.h */,
+				EAC0D0DB1CC023C400BBC4B5 /* View+MASAdditions.m */,
+				EAC0D0DC1CC023C400BBC4B5 /* View+MASShorthandAdditions.h */,
+				EAC0D0DD1CC023C400BBC4B5 /* ViewController+MASAdditions.h */,
+				EAC0D0DE1CC023C400BBC4B5 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		EAF8D4E61CB7CFDD002F8B34 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,12 +371,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA695A771CB7B5E100DDCDFA /* Build configuration list for PBXNativeTarget "ichat" */;
 			buildPhases = (
-				58688973226CAE00499C4D0C /* Check Pods Manifest.lock */,
 				EA695A5C1CB7B5E100DDCDFA /* Sources */,
 				EA695A5D1CB7B5E100DDCDFA /* Frameworks */,
 				EA695A5E1CB7B5E100DDCDFA /* Resources */,
-				A6CD3C46C41527F3286F758B /* Embed Pods Frameworks */,
-				B27B83F3312B60769E31E63B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,62 +429,25 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		58688973226CAE00499C4D0C /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A6CD3C46C41527F3286F758B /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B27B83F3312B60769E31E63B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		EA695A5C1CB7B5E100DDCDFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA695A6B1CB7B5E100DDCDFA /* ViewController.m in Sources */,
+				EAC0D0E11CC023C400BBC4B5 /* MASConstraintMaker.m in Sources */,
 				EA695A681CB7B5E100DDCDFA /* AppDelegate.m in Sources */,
+				EA65B3031CC00118001435DA /* WHHLoginViewController.m in Sources */,
+				EAC0D0E01CC023C400BBC4B5 /* MASConstraint.m in Sources */,
+				EAC0D0E81CC023C400BBC4B5 /* ViewController+MASAdditions.m in Sources */,
+				EAC0D0E21CC023C400BBC4B5 /* MASLayoutConstraint.m in Sources */,
+				EAC0D0E51CC023C400BBC4B5 /* NSArray+MASAdditions.m in Sources */,
+				EAC0D0E41CC023C400BBC4B5 /* MASViewConstraint.m in Sources */,
+				EAC0D0E31CC023C400BBC4B5 /* MASViewAttribute.m in Sources */,
+				EAC0D0E71CC023C400BBC4B5 /* View+MASAdditions.m in Sources */,
 				EA695A651CB7B5E100DDCDFA /* main.m in Sources */,
+				EA65B2FC1CBFFFF9001435DA /* WHHChatViewController.m in Sources */,
+				EAC0D0DF1CC023C400BBC4B5 /* MASCompositeConstraint.m in Sources */,
+				EAC0D0E61CC023C400BBC4B5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,12 +555,12 @@
 		};
 		EA695A781CB7B5E100DDCDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E6D29350D9933764FEDB5D8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ichat/Header.pch";
 				INFOPLIST_FILE = ichat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,12 +575,12 @@
 		};
 		EA695A791CB7B5E100DDCDFA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B087500A67BE2C711F560218 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ichat/Header.pch";
 				INFOPLIST_FILE = ichat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

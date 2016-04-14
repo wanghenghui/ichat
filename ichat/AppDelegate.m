@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 #import "EMSDK.h"
-#import <Masonry.h>
 
 
+#import "WHHLoginViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,12 +21,30 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
    
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    
+    
+   NSString * isLogin = [[NSUserDefaults standardUserDefaults] objectForKey:@"isLogin"];
+    
+    if ([isLogin isEqualToString:@"YES"]) {
+        
+    }else {
+        WHHLoginViewController *login = [[WHHLoginViewController alloc] init];
+        _window.rootViewController = login;
+    }
+    
     //集成环信
     EMOptions *options = [EMOptions optionsWithAppkey:@"00466120#ichat"];
     options.apnsCertName = @"istore_dev";
     [[EMClient sharedClient] initializeSDKWithOptions:options];
     
     return YES;
+}
+
+- (void)changeRootViewController {
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
